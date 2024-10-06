@@ -114,4 +114,7 @@ M.profile.ui = profile_ui.ui
 M.settings = {}
 M.settings.change_runtime = settings_api.change_runtime
 
+M.utils = {}
+M.utils.maven_setup = require('java.utils.maven').maven_setup
+
 return M

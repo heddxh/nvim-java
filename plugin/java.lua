@@ -23,6 +23,8 @@ local cmd_map = {
 	JavaRunnerSwitchLogs = { java.runner.built_in.switch_app },
 
 	JavaProfile = { java.profile.ui },
+
+	JavaMavenSetup = { java.utils.maven_setup },
 }
 
 for cmd, details in pairs(cmd_map) do
